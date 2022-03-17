@@ -11,7 +11,7 @@ def dispImg():
     else:
         cv2.imwrite('data/copy/lena_copy.jpg',img)
         cv2.destroyAllWindows()
-
+# hello just testing
 def captureVideo():
     cap=cv2.VideoCapture(0,cv2.CAP_DSHOW)
     while (cap.isOpened()):
